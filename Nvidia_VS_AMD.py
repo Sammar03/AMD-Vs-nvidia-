@@ -24,6 +24,6 @@ fig = go.Figure()
 fig.add_trace(go.Scatter( x=amd_data.index, y=amd_data['Daily_Return'], mode= 'lines', name='AMD', line= dict(color='blue')))
 fig.add_trace(go.Scatter( x=nvidia_data.index, y=nvidia_data['Daily_Return'], mode= 'lines', name='Nvidia', line= dict(color='red')))
 
-fig.update_layout(title= 'Daily Returns for AMD and Nvidia (From Start of this year)', 
+fig.update_layout(title= 'Daily Returns for AMD and Nvidia (Q4)', 
                   xaxis_title='Date', yaxis_title= 'Daily Return', legend= dict(x=0.02, y=0.95))
 fig.show()

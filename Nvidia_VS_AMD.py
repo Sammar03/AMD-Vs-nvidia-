@@ -8,8 +8,8 @@ pio.templates.default = "plotly_dark"
 # Initializing the Stock names and the start/end date for comparison
 amd_ticker = 'AMD'
 nvidia_ticker = 'NVDA'
-start_date = '2024-01-01'
-end_date = '2024-01-15'
+start_date = '2023-10-01'
+end_date = '2024-12-31'
 
 # Fetching the data from the internet
 amd_data = yf.download(amd_ticker, start= start_date, end = end_date)
